@@ -145,3 +145,4 @@ pip-selfcheck.json
 
 # User defined
 /data
+/notebooks/private/
