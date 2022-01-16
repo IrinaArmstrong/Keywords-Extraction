@@ -3,7 +3,30 @@ Keywords-Extraction: comparison of models and algorithms.
 ================
 
 <p align="center"></p>
-Python implementation for Russian language of some of the most popular algorithms for text summarization and keyword extraction.
+
+Background
+--------
+
+**Keyword/Keyphrase extraction** is the task of extracting important words that are relevant to the underlying document. 
+It lets you to enable faster search over documents by indexing them as document alias and 
+are even helpful in categorizing a given piece of text for these central topics. 
+
+<p align="center">
+
+![summarize](./images/summary.jpeg)
+
+</p>
+
+Experiments
+--------
+Now, these could be either ***abstractive*** (relevant keywords from outside of the written text) 
+or ***extractive*** (relevant keywords present in the written text) in nature.
+
+
+In this repository, I am going to implement few algorithms for Russian language and 
+to perform keyword extraction with five different approaches: TF-IDF, TextRank, TopicRank, YAKE!, and KeyBERT. 
+
+Let’s see who performs better!
 
 Features
 --------
